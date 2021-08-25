@@ -19,7 +19,7 @@ export const Message = () => {
         window.addEventListener('mousemove', mouseMove);
         
         return () => {
-            console.log("componente desmontado!");
+            console.log(" componente desmontado!");
             window.removeEventListener('mousemove', mouseMove);
         }
     }, [])
